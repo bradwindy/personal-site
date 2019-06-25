@@ -25,7 +25,8 @@ class Projects extends Component {
                             <a href='https://play.google.com/store/apps/details?id=plus.reminder.reminderplus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
                                 width="70%" alt='Get it on Google Play'
                                 src='https://i.ibb.co/mqtYmW4/en-badge-web-generic.png'/></a>
-                            <a className="btn btn-dark float-left font-weight-bold mt-2" href="/"><FontAwesomeIcon
+                            <a className="btn btn-dark float-left font-weight-bold mt-2"
+                               href="https://github.com/bradwindy/reminderplus"><FontAwesomeIcon
                                 icon={['fab', 'github']}/> View on GitHub</a>
                         </div>
                     </div>
@@ -40,9 +41,11 @@ class Projects extends Component {
                                 <li><b>Frameworks:</b> Node.js, React, MongoDB, Express.js</li>
                                 <li><b>Platform:</b> Web</li>
                             </ul>
-                            <a className="btn btn-info float-left font-weight-bold" href="/"><FontAwesomeIcon
+                            <a className="btn btn-info float-left font-weight-bold"
+                               href="https://one-room-bookings.herokuapp.com/login"><FontAwesomeIcon
                                 icon="mobile-alt"/> <FontAwesomeIcon icon="desktop"/> Visit Project</a>
-                            <a className="btn btn-dark float-left font-weight-bold mt-2" href="/"><FontAwesomeIcon
+                            <a className="btn btn-dark float-left font-weight-bold mt-2"
+                               href="https://github.com/bradwindy/OneRoom"><FontAwesomeIcon
                                 icon={['fab', 'github']}/> View on GitHub</a>
                         </div>
                     </div>
@@ -70,7 +73,8 @@ class Projects extends Component {
                                 <li><b>Language:</b> Python</li>
                                 <li><b>Framework:</b> Anaconda</li>
                             </ul>
-                            <a className="btn btn-dark float-left font-weight-bold mt-2" href="/"><FontAwesomeIcon
+                            <a className="btn btn-dark float-left font-weight-bold mt-2"
+                               href="https://gist.github.com/bradwindy/ac7709f035ae31a92803c15b4f51aaef"><FontAwesomeIcon
                                 icon={['fab', 'github']}/> View Gist</a>
                         </div>
                     </div>
