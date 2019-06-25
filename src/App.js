@@ -2,8 +2,25 @@ import React from 'react';
 import './App.css';
 import Root from "./components/Root"
 import Home from "./components/Home"
+import Projects from "./components/Projects"
 import NoMatch from "./components/NoMatch";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {fab} from '@fortawesome/free-brands-svg-icons';
+import {
+    faCheckSquare,
+    faCoffee,
+    faDesktop,
+    faMobileAlt
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(
+    fab,
+    faCheckSquare,
+    faCoffee,
+    faDesktop,
+    faMobileAlt
+);
 
 
 function App() {
@@ -14,6 +31,7 @@ function App() {
         <Root>
           <Switch>
             <Route exact path={"/"} component={Home}/>
+              <Route exact path={"/projects"} component={Projects}/>
             <Route component={NoMatch}/>
           </Switch>
         </Root>
