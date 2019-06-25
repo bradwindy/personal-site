@@ -11,8 +11,7 @@ class Home extends Component {
                     <h4 className="text-center">Check out my projects or read more about me</h4>
                 </div>
                 <div className="row justify-content-center">
-                    <a className="btn btn-primary float-left mr-2" href="/about">About Me</a>
-                    <a className="btn btn-outline-primary float-left" href="/projects">Projects</a>
+
                 </div>
             </div>
         );

@@ -11,7 +11,8 @@ import {
     faCheckSquare,
     faCoffee,
     faDesktop,
-    faMobileAlt
+    faMobileAlt,
+    faFilePdf
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -19,7 +20,8 @@ library.add(
     faCheckSquare,
     faCoffee,
     faDesktop,
-    faMobileAlt
+    faMobileAlt,
+    faFilePdf
 );
 
 
