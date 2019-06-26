@@ -12,7 +12,8 @@ import {
     faCoffee,
     faDesktop,
     faMobileAlt,
-    faFilePdf
+    faFilePdf,
+    faCode
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -21,7 +22,8 @@ library.add(
     faCoffee,
     faDesktop,
     faMobileAlt,
-    faFilePdf
+    faFilePdf,
+    faCode
 );
 
 
