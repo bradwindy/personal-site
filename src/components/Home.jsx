@@ -3,117 +3,133 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import me from './images/me.png';
 
-const colStyle = {
-    backgroundColor: "#fafafa",
-    height: "100%"
-};
+const linkStyle = {
+    color: "white",
 
-const heightStyle = {
-    height: "100%"
-};
-
-const widthStyle = {
-    width: "100%"
-};
-
-const contStyle = {
-    height: "100%",
 };
 
 class Home extends Component {
     render() {
         return (
-            <div className="container-fluid no-gutters p-0 m-0" style={contStyle}>
-                <div className="row no-gutters" style={heightStyle}>
-                    <div className="col-sm-3" style={colStyle}>
-                        <img className="ml-5 mr-5 mt-5" width="40%" src={me} alt="Head shot of me"/>
-                        <h2 className="font-weight-bold mt-4 ml-5 mr-5">Bradley Windybank</h2>
-                        <div className="col-sm-6 ml-5 p-0">
-                            <a className="btn btn-outline-secondary mt-4" href="/projects"><FontAwesomeIcon
-                                icon="code"/> Projects</a>
-                            <a className="btn btn-outline-danger mt-2" href="/"><FontAwesomeIcon icon="file-pdf"/> View
-                                CV PDF</a>
+            <div className="container-fluid no-gutters p-0 m-0">
+                <div className="row no-gutters">
+                    <div className="col">
+
+                    </div>
+                    <div className="col-xl-10 p-4">
+                        <div className="card-columns">
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <img className="ml-3 mt-3" width="30%" src={me} alt="Head shot of me"/>
+                                    <h2 className="font-weight-bold mt-4 ml-3">Bradley Windybank</h2>
+                                    <h5 className="font-weight-bold pt-3 ml-3">Contact Me:</h5>
+                                    <ul className="list-unstyled ml-3">
+                                        <li><FontAwesomeIcon icon="envelope"/> : <a href="mailto:trykryda@gmail.com"
+                                                                                    style={linkStyle}>trykryda@gmail.com</a>
+                                        </li>
+                                        <li><FontAwesomeIcon icon="phone"/> : <a href="tel:0221031605"
+                                                                                 style={linkStyle}>022 103 1605</a></li>
+                                        <li><FontAwesomeIcon icon={['fab', 'facebook-messenger']}/> : <a
+                                            href="http://m.me/bradleywindybank"
+                                            style={linkStyle}>m.me/bradleywindybank</a></li>
+                                    </ul>
+                                    <div className=" ml-3 mt-3 pt-3 pb-2">
+                                        <a className="btn btn-outline-light mr-2 mb-2" href="/projects"><FontAwesomeIcon
+                                            icon="code"/> Projects</a>
+                                        <a className="btn btn-outline-danger mb-2" href="/"><FontAwesomeIcon
+                                            icon="file-pdf"/> View
+                                            CV PDF</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="laptop"
+                                                                                                 color="darkturquoise"/> Development
+                                        Experience</h5>
+
+                                    Experience with languages such as Java, C, Javascript, Python, Dart, SQL and
+                                    HTML/CSS.<br/><br/>
+                                    <b>MERN stack</b>, especially <b>React.</b><br/><br/>
+                                    <b>Two android apps</b> using the Flutter framework, both available on the Play
+                                    Store.
+
+                                </div>
+                            </div>
+
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="redo-alt"
+                                                                                                 color="khaki"/> Agile
+                                        Experience</h5>
+                                    <p className="card-text">
+                                        In my group project within university we used the agile development
+                                        method <b>scrum</b>, and worked in sprints to develop our software. This
+                                        methodology allowed us to work closely with the client and repeatedly iterate on
+                                        the deliverable to produce the final product.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="code-branch"
+                                                                                                 color="greenyellow"/> Version
+                                        Control Experience</h5>
+                                    <p className="card-text">
+                                        <b>Git and GitHub</b> have been used for version control in all my personal and
+                                        group projects. I have experience with commits, pushing, merging, merge
+                                        conflicts, pull requests and branching.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="users"
+                                                                                                 color="hotpink"/> Group
+                                        Experience</h5>
+                                    <p className="card-text">
+                                        In university I worked in a team environment to develop a web app over 6 weeks.
+                                        I learnt how to communicate with others and how to develop in a team
+                                        environment.
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="hands-helping"
+                                                                                                 color="darksalmon"/> Volunteer
+                                        History</h5>
+                                    <p className="card-text">
+                                        I volunteered for 3 years at my local <b>Hospice shop</b> in Orewa,
+                                        Auckland.<br/><br/>
+                                        I was a founding member and spent a year working with the <b>Rotary Satellite
+                                        Club</b> of Orewa/Millwater. We worked in the local community to organise
+                                        fundraisers and other local events.<br/><br/>
+                                        I have volunteered on <b>Spirit of NZ</b> as a leading hand, helping out both
+                                        trainees and crew with tasks around the ship.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-title font-weight-bold"><FontAwesomeIcon icon="camera"
+                                                                                                 color="blueviolet"/> Hobbies
+                                        and Interests</h5>
+                                    <p className="card-text">
+
+                                        <b>Photography: </b>I enjoy taking photos in my spare time, and have taken
+                                        several paid photo shoots.<br/><br/>
+                                        <b>Graphic Design: </b>I enjoy working on logos, brochures and packaging and
+                                        have done so for family and friends.
+
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="col p-5" style={widthStyle}>
-                        <div className="card-columns">
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title font-weight-bold">Development Experience</h5>
-                                    <p className="card-text">
-                                        This is a longer card with supporting text below as a
-                                        natural lead-in to additional content. This content is a little bit
-                                        longer.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title font-weight-bold">Group Experience</h5>
-                                    <p className="card-text">
-                                        This is a longer card with supporting text below as a
-                                        natural lead-in to additional content. This content is a little bit
-                                        longer.
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <img src="..." className="card-img-top" alt="..."/>
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This card has supporting text below as a natural
-                                        lead-in to additional content.</p>
-                                    <p className="card-text">
-                                        <small className="text-muted">Last updated 3 mins ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="card bg-primary text-white text-center p-3">
-                                <blockquote className="blockquote mb-0">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                                        erat.</p>
-                                    <footer className="blockquote-footer text-white">
-                                        <small>
-                                            Someone famous in <cite title="Source Title">Source Title</cite>
-                                        </small>
-                                    </footer>
-                                </blockquote>
-                            </div>
-                            <div className="card text-center">
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This card has a regular title and short paragraphy of text
-                                        below it.</p>
-                                    <p className="card-text">
-                                        <small className="text-muted">Last updated 3 mins ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="card">
-                                <img src="..." className="card-img-top" alt="..."/>
-                            </div>
-                            <div className="card p-3 text-right">
-                                <blockquote className="blockquote mb-0">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                                        ante.</p>
-                                    <footer className="blockquote-footer">
-                                        <small className="text-muted">
-                                            Someone famous in <cite title="Source Title">Source Title</cite>
-                                        </small>
-                                    </footer>
-                                </blockquote>
-                            </div>
-                            <div className="card">
-                                <div className="card-body">
-                                    <h5 className="card-title">Card title</h5>
-                                    <p className="card-text">This is another card with title and supporting text below.
-                                        This card has some additional content to make it slightly taller overall.</p>
-                                    <p className="card-text">
-                                        <small className="text-muted">Last updated 3 mins ago</small>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="col">
                     </div>
                 </div>
             </div>

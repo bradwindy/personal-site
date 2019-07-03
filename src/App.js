@@ -13,7 +13,16 @@ import {
     faDesktop,
     faMobileAlt,
     faFilePdf,
-    faCode
+    faCode,
+    faLaptop,
+    faUsers,
+    faCodeBranch,
+    faHandsHelping,
+    faRedoAlt,
+    faCamera,
+    faArrowLeft,
+    faEnvelope,
+    faPhone,
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
@@ -23,7 +32,16 @@ library.add(
     faDesktop,
     faMobileAlt,
     faFilePdf,
-    faCode
+    faCode,
+    faLaptop,
+    faUsers,
+    faCodeBranch,
+    faHandsHelping,
+    faRedoAlt,
+    faCamera,
+    faArrowLeft,
+    faEnvelope,
+    faPhone
 );
 
 
