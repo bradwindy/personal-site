@@ -36,7 +36,8 @@ class Home extends Component {
                                     <div className=" ml-3 mt-3 pt-3 pb-2">
                                         <a className="btn btn-outline-light mr-2 mb-2" href="/projects"><FontAwesomeIcon
                                             icon="code"/> Projects</a>
-                                        <a className="btn btn-outline-danger mb-2" href="/"><FontAwesomeIcon
+                                        <a className="btn btn-outline-danger mb-2"
+                                           href="https://drive.google.com/file/d/1iO-tNwraphgUst-2EYcbxPxEZwyHLMi1/view?usp=sharing"><FontAwesomeIcon
                                             icon="file-pdf"/> View
                                             CV PDF</a>
                                     </div>
