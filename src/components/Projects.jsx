@@ -4,9 +4,11 @@ import reminder_image from './images/reminderplus.png';
 import oneroom_image from './images/oneroom.png';
 import cart_image from './images/shoppingcart.png';
 import gene_image from './images/genetic.png';
+import calc from './images/calc.png';
 
 const widthStyle = {
-    width: "100%"
+    width: "100%",
+    margin: "0 auto",
 };
 
 
@@ -19,8 +21,8 @@ class Projects extends Component {
                         icon="arrow-left"/> Back Home</a>
                 </nav>
 
-                <div className="container">
-                    <div className="card-deck mt-5">
+                <div className="container d-inline" style={widthStyle}>
+                    <div className="card-deck no-gutters p-3" style={widthStyle}>
                         <div className="card text-white bg-dark">
                             <img src={reminder_image} className="card-img-top" alt="..."></img>
                             <div className="card-body">
@@ -32,12 +34,15 @@ class Projects extends Component {
                                     <li><b>Framework:</b> Flutter</li>
                                     <li><b>Platforms:</b> Android (iOS soon)</li>
                                 </ul>
-                                <a href='https://play.google.com/store/apps/details?id=plus.reminder.reminderplus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
-                                    width="70%" alt='Get it on Google Play'
-                                    src='https://i.ibb.co/mqtYmW4/en-badge-web-generic.png'/></a>
-                                <a className="btn btn-outline-light float-left font-weight-bold mt-2"
-                                   href="https://github.com/bradwindy/reminderplus"><FontAwesomeIcon
-                                    icon={['fab', 'github']}/> View on GitHub</a>
+                                <div className="col-7 p-0">
+                                    <a href='https://play.google.com/store/apps/details?id=plus.reminder.reminderplus&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                                        width="70%" alt='Get it on Google Play'
+                                        src='https://i.ibb.co/mqtYmW4/en-badge-web-generic.png'/></a>
+                                    <a className="btn btn-outline-light float-left font-weight-bold mt-2"
+                                       href="https://github.com/bradwindy/reminderplus"><FontAwesomeIcon
+                                        icon={['fab', 'github']}/> GitHub</a>
+                                </div>
+
                             </div>
                         </div>
                         <div className="card text-white bg-dark">
@@ -52,12 +57,14 @@ class Projects extends Component {
                                     <li><b>Frameworks:</b> Node.js, React, MongoDB, Express.js</li>
                                     <li><b>Platform:</b> Web</li>
                                 </ul>
-                                <a className="btn text-info btn-outline-info float-left font-weight-bold"
-                                   href="https://one-room-bookings.herokuapp.com/login"><FontAwesomeIcon
-                                    icon="mobile-alt"/> <FontAwesomeIcon icon="desktop"/> Visit Project</a>
-                                <a className="btn btn-outline-light float-left font-weight-bold mt-2"
-                                   href="https://github.com/bradwindy/OneRoom"><FontAwesomeIcon
-                                    icon={['fab', 'github']}/> View on GitHub</a>
+                                <div className="col-6 p-0">
+                                    <a className="btn text-info btn-outline-info float-left font-weight-bold"
+                                       href="https://one-room-bookings.herokuapp.com/login"><FontAwesomeIcon
+                                        icon="mobile-alt"/> <FontAwesomeIcon icon="desktop"/> Visit</a>
+                                    <a className="btn btn-outline-light float-left font-weight-bold mt-2"
+                                       href="https://github.com/bradwindy/OneRoom"><FontAwesomeIcon
+                                        icon={['fab', 'github']}/> GitHub</a>
+                                </div>
                             </div>
                         </div>
                         <div className="card text-white bg-dark">
@@ -71,10 +78,33 @@ class Projects extends Component {
                                     <li><b>Platforms:</b> Web + Java Program</li>
                                 </ul>
                                 <a className="btn btn-outline-light float-left font-weight-bold mt-2"
-                                   href="/"><FontAwesomeIcon
-                                    icon={['fab', 'github']}/> View on GitHub</a>
+                                   href="https://github.com/bradwindy/shoppingCartProject"><FontAwesomeIcon
+                                    icon={['fab', 'github']}/> GitHub</a>
                             </div>
                         </div>
+
+                        <div className="card text-white bg-dark">
+                            <img src={calc} className="card-img-top" alt="..."></img>
+                            <div className="card-body">
+                                <h5 className="card-title font-weight-bold">Moral Calculator</h5>
+                                <p className="card-text">An Android app created as a personal project to learn how to
+                                    integrate ads and purchases into an app.</p>
+                                <ul className="list-unstyled">
+                                    <li><b>Language:</b> Dart</li>
+                                    <li><b>Framework:</b> Flutter</li>
+                                    <li><b>Platforms:</b> Android (iOS soon)</li>
+                                </ul>
+                                <div className="col-7 p-0">
+                                    <a href='https://play.google.com/store/apps/details?id=com.bradleywindybank.moral_calc&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img
+                                        width="70%" alt='Get it on Google Play'
+                                        src='https://i.ibb.co/mqtYmW4/en-badge-web-generic.png'/></a>
+                                    <a className="btn btn-outline-light float-left font-weight-bold mt-2"
+                                       href="https://github.com/bradwindy/moral_calc"><FontAwesomeIcon
+                                        icon={['fab', 'github']}/> GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+
                         <div className="card text-white bg-dark">
                             <img src={gene_image} className="card-img-top" alt="..."></img>
                             <div className="card-body">
