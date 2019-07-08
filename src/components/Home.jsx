@@ -49,9 +49,9 @@ class Home extends Component {
                                                                                                  color="darkturquoise"/> Development
                                         Experience</h5>
 
-                                    Experience with languages such as Java, C, Javascript, Python, Dart, SQL and
+                                    Experience with languages and frameworks such as Java, C, Javascript, Bootstrap, <b>MERN
+                                    stack</b>, Python, Dart, Flutter, SQL and
                                     HTML/CSS.<br/><br/>
-                                    <b>MERN stack</b>, especially <b>React.</b><br/><br/>
                                     <b>Two android apps</b> using the Flutter framework, both available on the Play
                                     Store.
 
